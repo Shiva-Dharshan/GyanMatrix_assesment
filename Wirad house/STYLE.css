@@ -30,15 +30,16 @@ body{
     flex-direction: column;
 }
 .box form input{
-
     border: 1px solid red;
     border-radius:50px;
     font-size: 15px;
     padding:15px;
-background: none;
-}
-.box ::placeholder{
     color:white;
+    background: none;
+}
+.box form input::placeholder{
+    text-decoration: solid;
+    color: white;
 }
 .box form button{
     height: 47px;
@@ -48,3 +49,4 @@ background: none;
     border-radius: 50px;
     border:1px solid #FFCD2D;
 }
+
