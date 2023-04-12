@@ -1,29 +1,53 @@
-body{display: block;
+body{
 margin: 0;}
 .box
-{   background-color: plum;
+{ 
+    background-color: plum;
     width:auto;
-    height:900px;
+    height:100%;
     padding:20px 20px 20px 20px;
 }
-.top{
+#top{
+    position: absolute;
     height: 100px;
     padding-top: 8px;
     padding-left: 58px;}
-.rit{
+    
+.rit{position: absolute;
+    left:994px;
+    top:22px;
+
+    }
+.rit1{
    width: auto;
    height: auto;
     position:absolute;
-    left :730px;
-    top:20px;
+    left :1030px;
+    top:50px;
 } 
+.nit{
+    position: absolute;
+    left:730px;
+    top:20px;
+}
+.nit1{
+    position:absolute;
+    left:780px;
+    top:53px;
+}
 .box2{
-    padding-top: 20px;
+    background: #CDCFEE;
+    width: 89%;
+    height: 550px;
+    margin-top: 70px;
+    margin-left: 72px;
+   filter: blur(38px);
 }
-.staff{position: absolute;
-    left:70px;
-    right: 0%;
-    top:170px;
-    width: 90%;
+#staff{
+    
+    width: 810px;
+    max-height: 97.5%;
+    position: absolute;
+    bottom: -100px;
+    left:235px
 }
-
